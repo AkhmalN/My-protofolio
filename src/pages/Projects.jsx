@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import pg from "../assets/projects/pg.png";
-import project from "../assets/projects/project.jpeg";
-import lift from "../assets/projects/lift.png";
-import krypto from "../assets/projects/krypto.png";
-import kickstart from "../assets/projects/kickstart.png";
+import imgAbsensiSeaqil from "../assets/projects/absensi_seaqil.png";
+import imgSmartpatrol from "../assets/projects/smartpatrol_admin.png";
+import imgSastrasvara from "../assets/projects/sastrasvara.png";
+import imgSmartpatrol2 from "../assets/projects/mobile_smartpatrol.png";
+import imgHrs from "../assets/projects/mobile_hrs.png";
 
 const Projects = () => {
   return (
@@ -14,7 +14,7 @@ const Projects = () => {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Recent Top <strong className="yellow">Works </strong>
+          Recent Top <strong className="yellow">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -22,68 +22,56 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={lift}
+              imgPath={imgAbsensiSeaqil}
               isBlog={false}
-              title="Lift-Buddy"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
+              title="Absensi Seaqil"
+              description="Aplikasi website absensi mahasiswa magang di SEAMEO QITEP in Language adalah solusi digital yang dirancang untuk memudahkan pengelolaan kehadiran mahasiswa magang di lembaga ini. Aplikasi ini menawarkan berbagai fitur yang memungkinkan mahasiswa magang untuk mencatat kehadiran mereka secara mandiri, sementara pihak pengelola dapat memantau dan mengelola data kehadiran dengan lebih efisien."
               ghLink="https://github.com/19sajib/lift-buddy"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={project}
+              imgPath={imgSmartpatrol}
               isBlog={false}
-              title="Social Media"
-              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
+              title="Admin dashboard smart patrol"
+              description="Aplikasi manajemen patroli di Universitas Nasional adalah solusi digital yang dirancang untuk meningkatkan efisiensi dan efektivitas pengelolaan kegiatan patroli keamanan di lingkungan kampus. Aplikasi ini memungkinkan petugas keamanan untuk melaksanakan tugas patroli dengan lebih terstruktur dan memungkinkan pihak pengelola untuk memantau kegiatan patroli secara real-time."
               ghLink="https://github.com/19sajib/social-media"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={imgSmartpatrol2}
               isBlog={false}
-              title="E‑Commerce Website"
-              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
-              ghLink="https://github.com/19sajib/mern-stack-ecommerce"
+              title="Mobile App smartpatrol"
+              description="Aplikasi manajemen patroli di Universitas Nasional adalah solusi digital berbasis web dan mobile yang dirancang untuk meningkatkan efisiensi dan efektivitas pengelolaan kegiatan patroli keamanan di lingkungan kampus. Dengan aplikasi ini, petugas keamanan dapat menjalankan tugas patroli mereka dengan lebih terstruktur, sementara pihak pengelola dapat memantau kegiatan patroli secara real-time dari perangkat apa saja."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pg}
+              imgPath={imgSastrasvara}
               isBlog={false}
-              title="Blog Website"
-              description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
+              title="Sastrasavara"
+              description="Sastrasvara adalah sebuah platform digital yang didedikasikan untuk memperkenalkan dan mempromosikan budaya Indonesia, khususnya budaya yang berasal dari kota Malang. Melalui kombinasi cerita dan backsound yang khas, Sastrasvara membawa pengunjung dalam perjalanan yang mendalam ke dalam kekayaan warisan budaya Indonesia."
               ghLink="https://github.com/19sajib/mern-blog-app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={krypto}
+              imgPath={imgHrs}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
+              title="Mobile App HRS"
+              description="HRS Mobile adalah aplikasi inovatif yang dirancang untuk membantu perusahaan dalam mengelola dan memanajemen berbagai aspek operasional, khususnya dalam pengaturan produk yang disaleskan serta kebutuhan administrasi seperti absensi, cuti, dan kasbon. Dengan antarmuka yang user-friendly dan fitur-fitur lengkap, HRS Mobile memberikan solusi efisien untuk meningkatkan produktivitas dan keteraturan dalam operasional sehari-hari."
               demoLink="https://project-krypto.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={kickstart}
-              isBlog={false}
-              title="Solidity Kickstart"
-              description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
-              ghLink="https://github.com/19sajib/Solidity-Kickstart"
             />
           </Col>
         </Row>
       </Container>
     </Container>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
