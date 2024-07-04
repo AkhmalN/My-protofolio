@@ -26,7 +26,7 @@ const Projects = () => {
               isBlog={false}
               title="Absensi Seaqil"
               description="Aplikasi website absensi mahasiswa magang di SEAMEO QITEP in Language adalah solusi digital yang dirancang untuk memudahkan pengelolaan kehadiran mahasiswa magang di lembaga ini. Aplikasi ini menawarkan berbagai fitur yang memungkinkan mahasiswa magang untuk mencatat kehadiran mereka secara mandiri, sementara pihak pengelola dapat memantau dan mengelola data kehadiran dengan lebih efisien."
-              ghLink="https://github.com/19sajib/lift-buddy"
+              ghLink="https://github.com/AkhmalN/Absensi-Seaqil-V2/tree/main/Client"
             />
           </Col>
 
@@ -36,7 +36,7 @@ const Projects = () => {
               isBlog={false}
               title="Admin dashboard smart patrol"
               description="Aplikasi manajemen patroli di Universitas Nasional adalah solusi digital yang dirancang untuk meningkatkan efisiensi dan efektivitas pengelolaan kegiatan patroli keamanan di lingkungan kampus. Aplikasi ini memungkinkan petugas keamanan untuk melaksanakan tugas patroli dengan lebih terstruktur dan memungkinkan pihak pengelola untuk memantau kegiatan patroli secara real-time."
-              ghLink="https://github.com/19sajib/social-media"
+              ghLink="https://github.com/unasapppatrol/website-admin"
             />
           </Col>
 
@@ -55,7 +55,7 @@ const Projects = () => {
               isBlog={false}
               title="Sastrasavara"
               description="Sastrasvara adalah sebuah platform digital yang didedikasikan untuk memperkenalkan dan mempromosikan budaya Indonesia, khususnya budaya yang berasal dari kota Malang. Melalui kombinasi cerita dan backsound yang khas, Sastrasvara membawa pengunjung dalam perjalanan yang mendalam ke dalam kekayaan warisan budaya Indonesia."
-              ghLink="https://github.com/19sajib/mern-blog-app"
+              ghLink="https://github.com/AkhmalN/sastrasvara"
             />
           </Col>
 
@@ -65,7 +65,7 @@ const Projects = () => {
               isBlog={false}
               title="Mobile App HRS"
               description="HRS Mobile adalah aplikasi inovatif yang dirancang untuk membantu perusahaan dalam mengelola dan memanajemen berbagai aspek operasional, khususnya dalam pengaturan produk yang disaleskan serta kebutuhan administrasi seperti absensi, cuti, dan kasbon. Dengan antarmuka yang user-friendly dan fitur-fitur lengkap, HRS Mobile memberikan solusi efisien untuk meningkatkan produktivitas dan keteraturan dalam operasional sehari-hari."
-              demoLink="https://project-krypto.netlify.app/"
+              demoLink="https://github.com/AkhmalN/SAAS-HRS"
             />
           </Col>
         </Row>
