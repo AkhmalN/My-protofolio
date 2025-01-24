@@ -5,7 +5,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from "../components/Particle";
 
-const resumeLink = `https://drive.google.com/file/d/1RSsVf7jZ9xZjCvZTJ_KGsRIGQ0BklsA9/view?usp=drive_link`;
+const resumeLink = `https://drive.google.com/file/d/1FM61ZsqAlXv9L4IkCU5kMJU5hBcbEb_y/view?usp=drive_link`;
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
@@ -22,7 +22,7 @@ const Resume = () => {
         <Row className="resume">
           <iframe
             title="Resume"
-            src="https://drive.google.com/file/d/1RSsVf7jZ9xZjCvZTJ_KGsRIGQ0BklsA9/preview"
+            src="https://drive.google.com/file/d/1FM61ZsqAlXv9L4IkCU5kMJU5hBcbEb_y/preview"
             width={width > 786 ? "640" : "320"}
             height="480"
             allow="autoplay"

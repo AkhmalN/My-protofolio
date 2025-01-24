@@ -2,9 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 
 const About = () => {
   return (
@@ -16,37 +15,34 @@ const About = () => {
               LET ME <span className="yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi, my name is{" "}
-              <span className="yellow">Akhmal Novanda Aziz </span>
-              and I'm from <span className="yellow">Depok, Indonesia</span>
+              Hi, I'm <span className="yellow">Akhmal Novanda Aziz</span>, and
+              I'm from <span className="yellow">Depok, Indonesia</span>.
               <br />
               <br />
-              I recently graduated with a Bachelor's degree in Computer Science
-              and Engineering in 2024.
+              I graduated with a Bachelor's degree in Computer Science and
+              Engineering in 2024.
               <br />
               <br />
-              As a<b className="yellow"> Software </b>developer, I enjoy
-              tackling new challenges and continuously expanding my skillset.
-              <br /> <br />
-              <br />I have a passion for working with
-              <b className="yellow"> Node.js, MongoDB, Mysql</b> and
+              I have a strong interest in software development, especially when
+              it comes to solving real-world problems through code. I enjoy
+              learning new technologies and constantly improving my skills.
+              <br />
+              <br />
+              I'm particularly comfortable working with technologies like
+              <b className="yellow"> Node.js, MongoDB, MySQL</b>, and modern
+              JavaScript frameworks like
               <i>
                 <b className="yellow">
                   {" "}
-                  modern Javascript libraries and frameworks
+                  React.js, React Native, Vue, and Next.js
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="yellow"> React.js or React Native</b>
-              </i>
+              .
               <br />
-              <br />I am also interested in building new
-              <i>
-                <b className="yellow"> Web Technologies and Products, </b>
-                as well as exploring areas related to
-              </i>
               <br />
+              I'm also excited about exploring new web technologies and
+              products, and I enjoy collaborating on projects that push the
+              boundaries of what's possible on the web.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
